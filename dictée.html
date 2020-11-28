@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" type="text/css" href="monstyle.css" />
+   </head>
+   <body id="exercice1_body">
+      <div id="exercice1_conteneur">
+         <form name="Dictées" method="post" action="#">
+            <fieldset class="exercice1_fieldset">
+               <legend class="exercice1_legend">Dictée</legend>
+               <div class="exercice1_label">
+                  
+               </div>
+
+  <figure>
+    <figcaption>Commencer ma Dictée:</figcaption>
+    <audio
+        controls
+        src="C:\Users\HP\Desktop\apprenonsnotrelecon\lacabane.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+<form  action="fairemadictee.php" method="POST">
+ 
+    <div>
+        <label for="msg">Dictée :</label>
+        <textarea rows="40" cols="100" id="msg" name="user_message"></textarea>
+    </div>
+      <div class="button">
+        <button type="submit">Voir la correction</button>
+    </div>
+</form>
+</textarea>
+
+</body>
+</html>
